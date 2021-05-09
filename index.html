@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Html,css">
+    <meta name="description" content="Computer origin where and when it was started, First computer, First calculator">
+    <title>Computer Origin</title>
+    <link rel="icon" href="https://user-images.githubusercontent.com/82175847/117571408-07872580-b0ec-11eb-87c0-4a3a03b61029.png" sizes="32x32">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            height: 100vh;
+            line-height: 1.5;
+        }
+        img{
+            max-width: 100%;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 1px solid black;
+            background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0, .8)), url("https://user-images.githubusercontent.com/82175847/117571259-67c99780-b0eb-11eb-892f-794c6c09ff3a.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .header-content{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 55px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            line-height: 1.5;
+        }
+        .heading{
+            letter-spacing: 1.5px;
+            font-size: 2.5em;
+            color: #fff;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+            margin-bottom: .11em;
+            
+            
+        }
+        .header-content p{
+            color: #fff;
+            font-size: 1em;
+            font-weight: 200;
+            max-width: 700px;
+            position: relative;
+            margin-top: 2em;
+            left: 5px;
+        }
+        .social{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 4em;
+            position: relative;
+            right: 15px;
+
+        }    
+        .social img{
+            width: 50px;
+            border: 1px solid white;
+            border-radius: 45px;
+            margin-left: 1.5em;
+            padding: 5px;
+            transition: .6s ease;
+        }
+        .container{
+            display: block;
+            margin: 1em;
+        }
+        .split{
+            width: min(90%, 75rem);
+            margin: 2rem;
+        }
+        .split div h2{
+                font-size: 1.82em;
+                font-weight: 400;
+                color: hsl(200, 42%, 24%);
+                margin-bottom: 1rem;
+            }
+            .split div p{
+                font-size: 1em;
+                font-weight: 400;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: hsl(100, 10% ,19%);
+            }
+            .split > div{
+                margin: 15px 0 ;
+            }
+            .split > *{
+                flex-basis: 100%;
+            }
+            
+        @media (min-width:800px){
+            .social{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 5em;
+            /* width: 350px; */
+            right: 50px;
+
+        }    
+        .social img{
+            background: transparent;
+            filter: invert(1);
+            width: 50px;
+            border: 1px solid #000;
+            margin-left: 3.5em;
+            padding: 15px;
+            transition: .6s ease;
+        }
+        .social img:hover{
+       transform: translateY(-20px);
+       cursor: pointer;
+       filter:invert(0);
+       border: 0;
+        }
+            .container{
+                margin: 1rem;
+            }
+            .split{
+                margin: 3rem 0;
+                padding: 15px;
+                /* border: 1px  solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .split > *{
+                flex-basis: 100%;
+            }
+            .split > div{
+                margin:  0 15px;
+            }
+            .split div h2{
+                font-size: 2em;
+                font-weight: 500;
+                color: hsl(200, 12%, 24%);
+                margin-bottom: 1rem;
+            }
+            .split div p{
+                font-size: 1.2em;
+                font-weight: 400;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: hsl(200, 20% ,34%);
+            }
+            .header-content{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 55px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+        }
+        .heading{
+            letter-spacing: 1.5px;
+            font-size: 5.5em;
+            color: #fff;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+        }
+        .header-content p{
+            color: #fff;
+            font-size: 1.3em;
+            font-weight: 200;
+            max-width: 700px;
+        }
+        .section{
+            display: flex;
+            flex-direction: row;
+            justify-content:first baseline  ;
+            align-items: baseline;
+        }
+        
+        }
+        @media (max-width:400px){
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                img{
+                    max-width: 100%;
+                }
+                body{
+                    height: 100vh;
+                }
+                header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 1px solid black;
+            background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0, .8)), url(/bram-naus-n8Qb1ZAkK88-unsplash.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .header-content{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            line-height: 1.5;
+        }
+        .heading{
+            letter-spacing: 1px;
+            font-size: 2em;
+            color: #fff;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+            margin-bottom: 0;
+            
+            
+        }
+        .header-content p{
+            color: #fff;
+            font-size: .8em;
+            font-weight: 200;
+            width: 250px;
+            position: relative;
+            margin-top: 1em;
+            left: 0;
+        }
+        .social{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 1em;
+            position: relative;
+            right: 22px;
+            box-sizing: border-box;
+
+
+        }    
+        .social img{
+            width: 30px;
+            border: 1px solid white;
+            border-radius: 45px;
+            margin-left: 1.5em;
+            /* padding: 5px; */
+            transition: .6s ease;
+        }
+        .container{
+            /* width: 100%; */
+            display: block;
+            margin: 1em 1rem;
+        }
+        .split{
+            margin: 0 2rem;
+        }
+        
+        .split div h2{
+                font-size: 1.42em;
+                font-weight: 400;
+                color: hsl(200, 42%, 24%);
+                margin-bottom: 1rem;
+            }
+            .split div p{
+                font-size: .78em;
+                font-weight: 400;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: hsl(100, 10% ,19%);
+            }
+            .split > div{
+                margin: 15px 0 ;
+            }
+            .split > *{
+                flex-basis: 100%;
+            }
+            
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h2 class="heading">COMPUTER ORIGIN</h2>
+            <p>How it started and how it's going on <br>
+            Perhaps Computer is the most powerfull and versatile tool created by human beings.In today's scenario computer plays a major role in almost every aspec of life. The Word computer comes from <em>compute</em>
+            </p>
+            <div class="social">
+                <img class="small" src="https://user-images.githubusercontent.com/82175847/117571261-6c8e4b80-b0eb-11eb-819f-15ce70aa8b4b.png" alt="Facebook Image">
+                <img class="small" src="https://user-images.githubusercontent.com/82175847/117571274-7e6fee80-b0eb-11eb-9d55-bfd05bd85e8b.png" alt="Twitter">
+                <img class="large" id="insta" src="https://user-images.githubusercontent.com/82175847/117571264-7152ff80-b0eb-11eb-8330-8fd9214ce5d3.png" alt="Instagram">
+                <img class="large"  src="https://user-images.githubusercontent.com/82175847/117571263-6ef0a580-b0eb-11eb-90c0-efee1abc195e.png" alt="Github image">
+            
+        </div>
+        
+    </header>
+        <div class="container">
+            <div class="split">
+                <div>
+                <img src="https://user-images.githubusercontent.com/82175847/117571255-64cea700-b0eb-11eb-896b-09eb4221119b.jpeg" alt="Abacus Image the first computer image ">
+                </div>
+                <div>
+              <h2>Abacus</h2>
+              <p>5000 years ago <em>Abacus</em> was developed in china in 3000 B.C. The word abacus means calculating board. It may be consider the first computer used for arithmatic calculations. The abacus is also known as counting frame. 
+                The chinese abacus has a frame holding the vertical wires, with seven beads on each wire. A horizontal divider sepatates the top two beads from the bottom five.
+                The arithmatic calculation perfomed by the principle of of <em>positional weight of beads on rack. </em>. 
+            </p>
+                </div>
+            </div>
+            <div class="split">
+                <div>
+                    <h2>Napier's Bones</h2>
+                    <p> <em>John Napier</em> was a mathematician  and became famous after his invention Logarithms . John Napier build a machine for the purpose of <br> multiplication in 1617 A.D. The device was known as Napiers's bone. The stick were called "Bones" because they were made of "Bone of ivory"
+
+                    </p>
+                </div>
+                <div>
+                    <img src="https://user-images.githubusercontent.com/82175847/117571266-731cc300-b0eb-11eb-8d04-b09c87553e63.jpeg" alt="">
+                </div>
+            </div>
+            <div class="split">
+                <div>
+                    <img src="https://user-images.githubusercontent.com/82175847/117571273-7b74fe00-b0eb-11eb-93bd-d0238218b1e3.jpeg" alt="">
+    
+                    </div>
+                    <div>
+                  <h2>Slide rule</h2>
+                  <p>English mathematician <em>E. Gunter</em>   dveloped the slide rule. This Machine could perform the operation like additio,subtraction,multiplication, division. Slide rule appeared in the seventeenth century. it consist of two movable rulers placed side by side . Each ruler is marked off in such a way that the distance of the ruler from the beginning are proporstional to the Logarithms of number printed on ruler. 
+                  </p>
+                    </div>
+            </div>
+            <div class="split">
+                <div>
+                    <h2>Pascal's Calculator</h2>
+                    <p><em>Blaise pascal</em> was the french mathematician and first scientist to developed and build calculator. He developed a machine that was capable of adding and subtracting the numbers.. The machine was operated by dialing wheel,gears,cylinders.</p>
+                </div>
+                <div>
+                    <img src="https://user-images.githubusercontent.com/82175847/117571267-787a0d80-b0eb-11eb-8f12-a7f54368f9ea.jpeg" alt="Pascal Calculator image built by the blaise pascal">
+                </div>
+            </div>
+            <!-- <div class="split"></div> -->
+            <div class="split">
+                <div>
+                    <h2>Leibniz's Multiplication and Dividing machine</h2>
+                    <p> Like pascal, <em>Gottfried Leibniz</em> was a seventeenth century scientist who developed the machanical device that could do mathematical calculations . </p>
+                </div>
+                <div>
+                    <h2>Mechanical and Electrical Calculator</h2>
+                    <p>Mechanical calculator was developed to sort of all mathematicl calculations in 19<sup>th</sup> century. Upto 1960s ,it was widelu used. Later the rotating part of mechanical calculator was replaced by "Electric Motor". So it was called the <em>"Electrical Calculator"</em>.   </p>
+                </div>
+            </div>
+            <div class="split section">
+                <div>
+                    <h2>Difference Engine</h2>
+                    <p>Towards the Creation of Computer  An English mathematics professor <em>Charles Babbage</em> put the first step. He realized that all mathematical calculations could be broken up into simple operations and they can constantly repeated, and then these operations could be carried out by automatic machine.Charles Babbage started working  on "Difference Engine" in 1820s but afrer 10 years he abandoned it for the 'Analytical Engine' -- The real predecessor of Computer</p>
+                    </div>
+                    <div>
+                  <h2>The Analytical Engine</h2>
+                  <p>The analytical engine marrks the progression from the arithmetic calculation to the general purpose computations. It was also developed by the "Charles Babbage". This machine was based on the principle that, for certain formulas, the difference between certain value is constant. <br> The engine had a 'store' (Memory) where the entermediate results could be held, and a separate 'Mill' (Processor) where the arithmetic processing was performed. It had an internal stock of the four arithmatical functions and could perform the direct multiplication and division. It was also capable of functions like looping(Iteration), microprogramming, parallel processing, latching and polling etc. </p>
+                    </div>
+                    
+            </div>
+        </div>
+</body>
+</html>
