@@ -1,3 +1,4 @@
+![laptop](https://user-images.githubusercontent.com/82175847/117571408-07872580-b0ec-11eb-87c0-4a3a03b61029.png)
 # Computer-Origin
 Here you could know about the Premittive computers and First Computers Information . How is was started and how  it is going on. 
 
